@@ -5,7 +5,6 @@
 # Componentes:
 #   NER: BioBERT + CRF, extrae sintomas del texto libre
 #   Clasificador: SapBERT con cross-attention, 7 features clinicas
-#    AUC 0.884 | Acc 68.1% | Kappa 0.617 (MIMIC-IV-ED, 374k casos)
 
 import torch
 import torch.nn as nn

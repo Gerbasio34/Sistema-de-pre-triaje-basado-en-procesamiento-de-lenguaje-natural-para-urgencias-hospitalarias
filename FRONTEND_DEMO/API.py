@@ -15,10 +15,10 @@ from transformers import AutoTokenizer, AutoModel
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from pipeline_pretriaje_esi_080426_v5g import load_all_models, run_pipeline
+from pipeline_pretriaje_esi import load_all_models, run_pipeline
 
 # ── Config ──
-FRONTEND_FILE = "./INDEX_v240326.html"
+FRONTEND_FILE = "./INDEX.html"
 UMLS_EMBEDDINGS_PATH = "../UMLS_BIOLORD/umls_embeddings_full_biolord.pt"
 BIOLORD_NAME = "FremyCompany/BioLORD-2023"
 
