@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
 # Evaluación de separabilidad lineal de embeddings SapBERT base vs fine-tuned
 # sobre el test set completo de MIMIC-IV-ED (~74.000 casos)
-#
-# Pregunta: ¿Son los embeddings linealmente separables por nivel ESI?
-# Esto determina si el colapso geométrico observado es funcional o solo geométrico.
-#
+
+
+
 # Ejecutar desde la carpeta que contiene:
 #   - triage_with_demographics.csv
 #   - modelo_sapbert_finetuned_v5g_6D_ablation.pt

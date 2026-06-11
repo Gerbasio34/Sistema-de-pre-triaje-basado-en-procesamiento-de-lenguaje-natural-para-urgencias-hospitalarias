@@ -27,8 +27,7 @@ cd NOMBRE_REPO
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate        # Linux/Mac
-# venv\Scripts\activate         # Windows
+source venv/bin/activate        
 
 pip install -r requirements.txt
 ```
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 Los modelos están alojados en Hugging Face Hub. Ejecuta el script de descarga una sola vez **desde la raíz del repositorio**:
 
 ```bash
-python3 setup_models.py
+python3 preparar_modelos.py
 ```
 
 Esto descargará automáticamente los tres modelos en la carpeta `FRONTEND_DEMO/`. Puede tardar varios minutos dependiendo de la conexión (~4 GB en total).
@@ -47,7 +46,7 @@ Esto descargará automáticamente los tres modelos en la carpeta `FRONTEND_DEMO/
 
 ```bash
 cd FRONTEND_DEMO
-python3 API_v240326_biolord.py
+python3 API.py
 ```
 
 El primer arranque tarda unos segundos mientras carga los modelos en memoria.
