@@ -16,10 +16,10 @@ from torchcrf import CRF
 
 # 1. CONFIGURATION
 
-NER_MODEL_PATH  = "../BioBERT_NER/biobert_sintomas_ner_v4_crf"
+NER_MODEL_PATH  = "./biobert_sintomas_ner_v4_crf"
 NER_BASE_MODEL  = "dmis-lab/biobert-base-cased-v1.2"
 
-CLASSIFIER_PATH = "../SAPBERT_FINETUNED_MODEL/modelo_sapbert_finetuned_v5g_6D_ablation.pt"
+CLASSIFIER_PATH = "./modelo_sapbert_finetuned_v5g_6D_ablation.pt"
 SAPBERT_NAME    = "cambridgeltl/SapBERT-from-PubMedBERT-fulltext"
 
 VITAL_MAP = {

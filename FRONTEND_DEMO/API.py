@@ -19,7 +19,7 @@ from pipeline_pretriaje_esi import load_all_models, run_pipeline
 
 # ── Config ──
 FRONTEND_FILE = "./INDEX.html"
-UMLS_EMBEDDINGS_PATH = "../UMLS_BIOLORD/umls_embeddings_full_biolord.pt"
+UMLS_EMBEDDINGS_PATH = "./umls_embeddings_full_biolord.pt"
 BIOLORD_NAME = "FremyCompany/BioLORD-2023"
 
 # ── FastAPI ──
